@@ -3,7 +3,7 @@
 //  ArrayTasks
 //
 //  Created by iuser on 27.02.16.
-//  Copyright © 2016 KonstantinStolyrenko. All rights reserved.
+//  Copyright © 2016 Konstantin Stolyarenko. All rights reserved.
 //
 
 #import "AppDelegate.h"

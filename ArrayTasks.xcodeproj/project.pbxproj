@@ -14,8 +14,9 @@
 		D186569C1C81D3E500079C3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D186569A1C81D3E500079C3F /* LaunchScreen.storyboard */; };
 		D18656A71C81D3E500079C3F /* ArrayTasksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D18656A61C81D3E500079C3F /* ArrayTasksTests.m */; };
 		D18656B21C81D3E500079C3F /* ArrayTasksUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D18656B11C81D3E500079C3F /* ArrayTasksUITests.m */; };
-		D18656C11C81D4A900079C3F /* ATSetDict.m in Sources */ = {isa = PBXBuildFile; fileRef = D18656C01C81D4A900079C3F /* ATSetDict.m */; };
-		D18656C41C81D52B00079C3F /* ATArraysInverseMedium.m in Sources */ = {isa = PBXBuildFile; fileRef = D18656C31C81D52B00079C3F /* ATArraysInverseMedium.m */; };
+		D18656C71C81D61800079C3F /* ATEvenOddEmailValid.m in Sources */ = {isa = PBXBuildFile; fileRef = D18656C61C81D61800079C3F /* ATEvenOddEmailValid.m */; };
+		D18656CC1C81D72500079C3F /* ATArraysInverseMedium.m in Sources */ = {isa = PBXBuildFile; fileRef = D18656C91C81D72500079C3F /* ATArraysInverseMedium.m */; };
+		D18656CD1C81D72500079C3F /* ATSetDict.m in Sources */ = {isa = PBXBuildFile; fileRef = D18656CB1C81D72500079C3F /* ATSetDict.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,10 +51,12 @@
 		D18656AD1C81D3E500079C3F /* ArrayTasksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArrayTasksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D18656B11C81D3E500079C3F /* ArrayTasksUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArrayTasksUITests.m; sourceTree = "<group>"; };
 		D18656B31C81D3E500079C3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D18656BF1C81D4A900079C3F /* ATSetDict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ATSetDict.h; path = ../ATSetDict.h; sourceTree = "<group>"; };
-		D18656C01C81D4A900079C3F /* ATSetDict.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ATSetDict.m; path = ../ATSetDict.m; sourceTree = "<group>"; };
-		D18656C21C81D52B00079C3F /* ATArraysInverseMedium.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ATArraysInverseMedium.h; path = ../ATArraysInverseMedium.h; sourceTree = "<group>"; };
-		D18656C31C81D52B00079C3F /* ATArraysInverseMedium.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ATArraysInverseMedium.m; path = ../ATArraysInverseMedium.m; sourceTree = "<group>"; };
+		D18656C51C81D61800079C3F /* ATEvenOddEmailValid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATEvenOddEmailValid.h; sourceTree = "<group>"; };
+		D18656C61C81D61800079C3F /* ATEvenOddEmailValid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATEvenOddEmailValid.m; sourceTree = "<group>"; };
+		D18656C81C81D72500079C3F /* ATArraysInverseMedium.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATArraysInverseMedium.h; sourceTree = "<group>"; };
+		D18656C91C81D72500079C3F /* ATArraysInverseMedium.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATArraysInverseMedium.m; sourceTree = "<group>"; };
+		D18656CA1C81D72500079C3F /* ATSetDict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATSetDict.h; sourceTree = "<group>"; };
+		D18656CB1C81D72500079C3F /* ATSetDict.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATSetDict.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,10 +109,12 @@
 			children = (
 				D186568F1C81D3E500079C3F /* AppDelegate.h */,
 				D18656901C81D3E500079C3F /* AppDelegate.m */,
-				D18656BF1C81D4A900079C3F /* ATSetDict.h */,
-				D18656C01C81D4A900079C3F /* ATSetDict.m */,
-				D18656C21C81D52B00079C3F /* ATArraysInverseMedium.h */,
-				D18656C31C81D52B00079C3F /* ATArraysInverseMedium.m */,
+				D18656CA1C81D72500079C3F /* ATSetDict.h */,
+				D18656CB1C81D72500079C3F /* ATSetDict.m */,
+				D18656C81C81D72500079C3F /* ATArraysInverseMedium.h */,
+				D18656C91C81D72500079C3F /* ATArraysInverseMedium.m */,
+				D18656C51C81D61800079C3F /* ATEvenOddEmailValid.h */,
+				D18656C61C81D61800079C3F /* ATEvenOddEmailValid.m */,
 				D18656951C81D3E500079C3F /* Main.storyboard */,
 				D18656981C81D3E500079C3F /* Assets.xcassets */,
 				D186569A1C81D3E500079C3F /* LaunchScreen.storyboard */,
@@ -280,9 +285,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D18656911C81D3E500079C3F /* AppDelegate.m in Sources */,
-				D18656C11C81D4A900079C3F /* ATSetDict.m in Sources */,
-				D18656C41C81D52B00079C3F /* ATArraysInverseMedium.m in Sources */,
+				D18656C71C81D61800079C3F /* ATEvenOddEmailValid.m in Sources */,
+				D18656CC1C81D72500079C3F /* ATArraysInverseMedium.m in Sources */,
 				D186568E1C81D3E500079C3F /* main.m in Sources */,
+				D18656CD1C81D72500079C3F /* ATSetDict.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,6 +429,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ArrayTasks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SKS.ArrayTasks;
@@ -434,6 +441,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ArrayTasks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SKS.ArrayTasks;

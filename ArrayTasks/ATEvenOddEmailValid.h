@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  ATEvenOddEmailValid.h
 //  ArrayTasks
 //
 //  Created by iuser on 27.02.16.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface ATEvenOddEmailValid : UIViewController
 
 @end
-
