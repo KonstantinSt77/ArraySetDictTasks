@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ATArraysInverseMedium.h
 //  ArrayTasks
 //
 //  Created by iuser on 27.02.16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ATArraysInverseMedium : UIViewController
 
 @end
-
